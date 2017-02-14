@@ -1,13 +1,19 @@
 {
-  "name": "stringify-object",
+  "name": "@stheine/stringify-object",
   "version": "3.1.0",
   "description": "Stringify an object/array like JSON.stringify just without all the double-quotes",
   "license": "BSD-2-Clause",
-  "repository": "yeoman/stringify-object",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stheine/stringify-object.git"
+  },
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
+  },
+  "contributors": {
+    "email": "stefan.heine@hpe.com"
   },
   "engines": {
     "node": ">=4"
@@ -29,13 +35,15 @@
     "json"
   ],
   "dependencies": {
-    "get-own-enumerable-property-symbols": "^1.0.1",
-    "is-obj": "^1.0.1",
-    "is-regexp": "^1.0.0"
+    "get-own-enumerable-property-symbols": "1.0.1",
+    "is-obj": "1.0.1",
+    "is-regexp": "1.0.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "xo": "*"
+    "mocha": "3.2.0",
+    "roboter": "0.14.4",
+    "roboter-server": "0.14.4",
+    "xo": "0.17.1"
   },
   "xo": {
     "esnext": true

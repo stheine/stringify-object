@@ -1,4 +1,4 @@
-# stringify-object [![Build Status](https://secure.travis-ci.org/yeoman/stringify-object.svg?branch=master)](http://travis-ci.org/yeoman/stringify-object)
+# @stheine/stringify-object
 
 > Stringify an object/array like JSON.stringify just without all the double-quotes
 
@@ -6,18 +6,24 @@ Useful for when you want to get the string representation of an object in a form
 
 It also handles circular references and lets you specify quote type.
 
+The fork was created to add the new option `joinLines`.
+See the [https://github.com/yeoman/stringify-object/pull/39](discussion).
+
+# Reference
+
+This module is forked from [https://github.com/yeoman/stringify-object](stringify-object).
+Thanks for the original work!
 
 ## Install
 
 ```
-$ npm install --save stringify-object
+$ npm install --save @stheine/stringify-object
 ```
-
 
 ## Usage
 
 ```js
-const stringifyObject = require('stringify-object');
+const stringifyObject = require('@stheine/stringify-object');
 
 const obj = {
 	foo: 'bar',

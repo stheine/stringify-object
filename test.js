@@ -44,7 +44,7 @@ it('should stringify an object', () => {
 		singleQuotes: false
 	});
 
-	assert.equal(actual + '\n', fs.readFileSync('fixture.js', 'utf8'));
+	assert.equal(actual + '\n', fs.readFileSync('fixture.out', 'utf8'));
 	assert.equal(
 		stringifyObject({foo: 'a \' b \' c \\\' d'}, {singleQuotes: true}),
 		'{\n\tfoo: \'a \\\' b \\\' c \\\\\' d\'\n}'
