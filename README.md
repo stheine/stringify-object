@@ -1,5 +1,9 @@
 # @stheine/stringify-object
 
+<!-- toc -->
+
+# Purpose
+
 > Stringify an object/array like JSON.stringify just without all the double-quotes
 
 Useful for when you want to get the string representation of an object in a formatted way.
