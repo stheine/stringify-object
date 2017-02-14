@@ -2,6 +2,23 @@
 
 <!-- toc -->
 
+- [Purpose](#purpose)
+- [Reference](#reference)
+  * [Install](#install)
+  * [Usage](#usage)
+  * [API](#api)
+    + [stringifyObject(input, [options])](#stringifyobjectinput-options)
+      - [input](#input)
+      - [options](#options)
+        * [indent](#indent)
+        * [singleQuotes](#singlequotes)
+        * [filter(obj, prop)](#filterobj-prop)
+        * [inlineCharacterLimit](#inlinecharacterlimit)
+        * [joinLines](#joinlines)
+  * [License](#license)
+
+<!-- tocstop -->
+
 # Purpose
 
 > Stringify an object/array like JSON.stringify just without all the double-quotes
